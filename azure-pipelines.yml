@@ -13,10 +13,10 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '8712937b-6419-4441-b4c8-ec9c831dc295'
   imageRepository: 'sathishcodespipelinesjavascriptdocker'
-  containerRegistry: 'mycontainerregistrysc.azurecr.io'
+  containerRegistry: 'mycontainerregistrycodes.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
-  imagePullSecret: 'mycontainerregistryscccbc-auth'
+  imagePullSecret: 'mycontainerregistrycodesccbc-auth'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
